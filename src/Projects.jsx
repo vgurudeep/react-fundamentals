@@ -42,7 +42,6 @@ const fetchData = async () => {
 };
 
 function Projects() {
-  console.log(import.meta.env);
   const [projects, setProjects] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
